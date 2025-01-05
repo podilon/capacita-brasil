@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page da Bem Receptivo, especializada em viagens e turismo receptivo em Fortaleza/Ceará.">
+    <title>Bem Receptivo - Viagens e Turismo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="https://bemreceptivo.com.br/images/webp/caption.webp" alt="Bem Receptivo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#conteudo">Conteúdo</a></li>
+                    <li><a href="#videos">Vídeos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Bem-vindo à Bem Receptivo</h1>
+            <p>Especialista em turismo receptivo e passeios em Fortaleza/Ceará.</p>
+        </section>
+
+        <section id="conteudo" class="content">
+            <h2>Explore nossos serviços</h2>
+            <article>
+                <h3>City Tour</h3>
+                <img src="https://bemreceptivo.com.br/images/webp/banner-fortaleza-02.webp" alt="Passeio de City Tour em Fortaleza">
+                <p>Descubra os principais pontos turísticos de Fortaleza com nosso city tour guiado.</p>
+                <button>Saiba mais</button>
+            </article>
+            <article>
+                <h3>Passeios Personalizados</h3>
+                <img src="https://bemreceptivo.com.br/images/webp/banner-fortaleza-01.webp" alt="Passeios Personalizados em Fortaleza">
+                <p>Monte seu próprio roteiro e explore o Ceará de forma exclusiva.</p>
+                <button>Saiba mais</button>
+            </article>
+        </section>
+
+        <section id="videos" class="videos">
+            <h2>Vídeos sobre nossos serviços</h2>
+            <div class="video">
+                <iframe src="https://youtube.com/shorts/NDVaQ3yWsgY?si=VHEdw1JxLoyxkU2r" title="Vídeo sobre o litoral Leste" allowfullscreen></iframe>
+                <p>Veja nossos passeios pelo litoral Leste do Ceará.</p>
+            </div>
+            <div class="video">
+                <iframe src="https://youtube.com/shorts/ybNZbaE7uSY?si=w586MOkFk0hScGI5" title="Vídeo sobre o litoral Oeste" allowfullscreen></iframe>
+                <p>Veja nossos passeios pelo litoral Oeste do Ceará.</p>
+            </div>
+        </section>
+
+        <section id="contato" class="contact">
+            <h2>Entre em contato</h2>
+            <form action="#" method="post">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Seu email" required>
+
+                <label for="subject">Assunto</label>
+                <select id="subject" name="subject" required>
+                    <option value="city-tour">City Tour</option>
+                    <option value="passeios">Passeios Personalizados</option>
+                    <option value="outros">Outros</option>
+                </select>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Ajuda</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://facebook.com/bemreceptivo" target="_blank">Facebook</a>
+                <a href="https://instagram.com/bemreceptivo" target="_blank">Instagram</a>
+                <a href="https://twitter.com/bemreceptivo" target="_blank">Twitter</a>
+            </div>
+            <p>Contato: contato@bemreceptivo.com.br | (85) 4141-6666</p>
+        </div>
+    </footer>
+</body>
+</html>

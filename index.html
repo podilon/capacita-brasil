@@ -6,6 +6,7 @@
     <meta name="description" content="Landing page da Bem Receptivo, especializada em viagens e turismo receptivo em Fortaleza/Ceará.">
     <title>Bem Receptivo - Viagens e Turismo</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
@@ -29,32 +30,40 @@
         </section>
 
         <section id="conteudo" class="content">
-            <h2>Explore nossos serviços</h2>
+            
             <article>
-                <h3>City Tour</h3>
-                <img src="https://bemreceptivo.com.br/images/webp/banner-fortaleza-02.webp" alt="Passeio de City Tour em Fortaleza">
-                <p>Descubra os principais pontos turísticos de Fortaleza com nosso city tour guiado.</p>
-                <button>Saiba mais</button>
+                <h3>Passeios Regulares</h3>
+                <img src="https://bemreceptivo.com.br/images/webp/banner-fortaleza-02.webp" alt="Passeio de Passeios Regulares em Fortaleza">
+                <p>Descubra os principais pontos turísticos de Fortaleza com nosso Passeios Regulares guiado.</p>
+                
             </article>
             <article>
                 <h3>Passeios Personalizados</h3>
                 <img src="https://bemreceptivo.com.br/images/webp/banner-fortaleza-01.webp" alt="Passeios Personalizados em Fortaleza">
                 <p>Monte seu próprio roteiro e explore o Ceará de forma exclusiva.</p>
-                <button>Saiba mais</button>
+                
             </article>
         </section>
 
         <section id="videos" class="videos">
-            <h2>Vídeos sobre nossos serviços</h2>
             <div class="video">
-                <iframe src="https://youtube.com/shorts/NDVaQ3yWsgY?si=VHEdw1JxLoyxkU2r" title="Vídeo sobre o litoral Leste" allowfullscreen></iframe>
                 <p>Veja nossos passeios pelo litoral Leste do Ceará.</p>
+                <iframe src="https://youtube.com/embed/NDVaQ3yWsgY?si=VHEdw1JxLoyxkU2r" 
+                        title="Vídeo sobre o litoral Leste" 
+                        allowfullscreen>
+                </iframe>
+                
             </div>
             <div class="video">
-                <iframe src="https://youtube.com/shorts/ybNZbaE7uSY?si=w586MOkFk0hScGI5" title="Vídeo sobre o litoral Oeste" allowfullscreen></iframe>
                 <p>Veja nossos passeios pelo litoral Oeste do Ceará.</p>
+                <iframe src="https://youtube.com/embed/ybNZbaE7uSY?si=w586MOkFk0hScGI5" 
+                        title="Vídeo sobre o litoral Oeste" 
+                        allowfullscreen>
+                </iframe>
+                
             </div>
         </section>
+        
 
         <section id="contato" class="contact">
             <h2>Entre em contato</h2>
@@ -67,7 +76,7 @@
 
                 <label for="subject">Assunto</label>
                 <select id="subject" name="subject" required>
-                    <option value="city-tour">City Tour</option>
+                    <option value="city-tour">Passeios Regulares</option>
                     <option value="passeios">Passeios Personalizados</option>
                     <option value="outros">Outros</option>
                 </select>
@@ -90,11 +99,17 @@
                 </ul>
             </nav>
             <div class="social">
-                <a href="https://facebook.com/bemreceptivo" target="_blank">Facebook</a>
-                <a href="https://instagram.com/bemreceptivo" target="_blank">Instagram</a>
-                <a href="https://twitter.com/bemreceptivo" target="_blank">Twitter</a>
+                <a href="https://facebook.com/bemreceptivo" target="_blank">
+                    <i class="fab fa-facebook"></i> Facebook
+                </a>
+                <a href="https://twitter.com/bemreceptivo" target="_blank">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="https://instagram.com/bemreceptivo" target="_blank">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
             </div>
-            <p>Contato: contato@bemreceptivo.com.br | (85) 4141-6666</p>
+            <p>Contato: e-mail@bemreceptivo.com.br | (85) 4141-6666</p>
         </div>
     </footer>
 </body>
